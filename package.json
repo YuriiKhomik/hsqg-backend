@@ -1,0 +1,24 @@
+{
+  "name": "hsqg-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Yurii Khomik <yu.hamster.pl@gmail.com> (https://github.com/YuriiKhomik)",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.2",
+    "nanoid": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
