@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 const app = require("./app");
 
-const DB_HOST =
-  "mongodb+srv://Yurii:pawn0nepenthe@cluster0.gubanbh.mongodb.net/";
+const { DB_HOST } = require("./config");
 
 mongoose.set("strictQuery", true);
 
